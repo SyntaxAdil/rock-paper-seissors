@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SEISSORS || Abdur Rahman Adil</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- popup preloader mdoal -->
+
+    <div id="preloader-modal">
+      <div class="modal-container">
+        <img src="assets/rulesPopUp.png" alt="rules" />
+        <span id="dltPopUp"> x</span>
+      </div>
+    </div>
+
+    <!-- img container -->
+    <div class="img-container">
+      <div class="display">
+        <p>Win: <span id="win">0</span></p>
+        <p>Loss: <span id="lose">0</span></p>
+        <p>Draw: <span id="draw">0</span></p>
+        <p>Attemps: <span id="attemps">0</span></p>
+      </div>
+      <h2>Make your move, player.</h2>
+      <div class="images">
+        <img src="assets/paper.png" id="paper" class="rps" alt="paper" />
+        <img src="assets/rock.png" id="rock" class="rps" alt="rock" />
+        <img src="assets/sizzer.png" id="sizzer" class="rps" alt="sizzer" />
+      </div>
+      <!-- reset btn -->
+      <button class="restartGame">Reset Game</button>
+    </div>
+    <div class="game">
+      <img src="assets/rock.png" id="user" class="rps-final" alt="user" />
+      <img src="assets/rock.png" id="dynamic" class="rps-final" alt="dynamic" />
+    </div>
+    <!-- message -->
+    <p id="msg"></p>
+    <!-- play again btn -->
+    <button class="playAgain">Play Again</button>
+    <!-- copyright -->
+    <p id="copyRight">&copy;Abdur Rahman Adil</p>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
