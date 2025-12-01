@@ -36,7 +36,7 @@ function showMessage(c, e) {
     win++;
     winDisplay.textContent = win;
   } else {
-    mssg.innerHTML = "You loss";
+    mssg.innerHTML = "You lose";
     loss++;
     lossDisplay.textContent = loss;
   }
